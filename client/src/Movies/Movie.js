@@ -22,7 +22,7 @@ const Movie = (props) => {
       };
 
       getMovie(id);
-  }, []);
+  });
   
   // Uncomment this only when you have moved on to the stretch goals
   const saveMovie = () => {
